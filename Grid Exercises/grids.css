@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.lightblue {
+    background-color: lightblue;
+}
+.lightpink {
+    background-color: lightpink;
+}
+.grid-four {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 20px;
+}
